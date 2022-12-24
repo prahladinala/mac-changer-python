@@ -1,8 +1,9 @@
 import subprocess
 
 # Variables
-interface = "wlan0"
-new_mac = "00:11:22:33:44:55"
+interface = input("Enter Interface > ")
+new_mac = input("Enter New MAC Address > ")
+## NOTE: input() or raw_input() is used to get user input
 
 # Output Text
 print("[+] Changing MAC Address for " + interface + " to " + new_mac)
